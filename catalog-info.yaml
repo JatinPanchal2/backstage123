@@ -19,12 +19,6 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
     jenkins.io/job-full-name: teamA/testjob
 spec:
-  type: library
+  type: service
   owner: CNCF
   lifecycle: experimental
-  targets:
-    - ./all-apis.yaml
-    - ./all-components.yaml
-    - ./all-domains.yaml
-    - ./all-resources.yaml
-    - ./all-systems.yaml
